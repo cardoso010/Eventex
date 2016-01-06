@@ -28,6 +28,9 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=[], cast=Csv())
 
+#Email default do sistema
+DEFAULT_FROM_EMAIL = 'gabriel_cardoso010@yahoo.com.br'
+
 # Application definition
 
 INSTALLED_APPS = [
