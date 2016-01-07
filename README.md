@@ -3,7 +3,7 @@
 Sistema de Eventos encomendado pela Morena.
 
 [![Build Status](https://travis-ci.org/cardoso010/Eventex.svg?branch=master)](https://travis-ci.org/cardoso010/Eventex)
-
+[![Code Climate](https://codeclimate.com/github/cardoso010/Eventex/badges/gpa.svg)](https://codeclimate.com/github/cardoso010/Eventex)
 
 ## Como desenvolver?
 
@@ -19,7 +19,7 @@ git clone git@github.com:cardoso010/eventex.git wttd
 cd wttd
 python -m venv .wttd
 source .wttd/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 cd contrib/env-sample .env
 python manage.py test
 ```
