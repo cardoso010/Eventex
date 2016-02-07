@@ -21,8 +21,8 @@ class SubscriptionsNewGet(TestCase):
         """ Html must contain input tags """
         tags = (('<form', 1),
                 ('<input', 6),
-                ('type="text"', 4),
-                #('type="email"', 1),
+                ('type="text"', 3),
+                ('type="email"', 1),
                 ('type="submit"', 1))
         for text, count in tags:
             with self.subTest():
