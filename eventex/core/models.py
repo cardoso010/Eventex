@@ -50,6 +50,7 @@ class Talk(models.Model):
     speakers = models.ManyToManyField('Speaker', verbose_name='palestrantes', blank=True)
 
     objects = PeriodManager()
+
     class Meta:
         verbose_name = 'palestra'
         verbose_name_plural = 'palestra'
