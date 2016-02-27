@@ -18,7 +18,7 @@ class SubscriptionDetailGet(TestCase):
 
     def test_template(self):
         self.assertTemplateUsed(self.resp,
-                                'subscription/subscription_detail.html')
+                                'subscriptions/subscription_detail.html')
 
     def test_context(self):
         subscription = self.resp.context['subscription']
